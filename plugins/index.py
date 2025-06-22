@@ -3,7 +3,7 @@ import time
 import asyncio
 from hydrogram import Client, filters, enums
 from hydrogram.errors import FloodWait
-from info import ADMINS,
+from info import ADMINS
 from database.ia_filterdb import save_file
 from hydrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from utils import temp, get_readable_time
