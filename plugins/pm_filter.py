@@ -498,10 +498,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         watch = f"{URL}watch/{msg.id}"
         download = f"{URL}download/{msg.id}"
         btn=[[
-            InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ", url=watch),
-            InlineKeyboardButton("ꜰᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=download)
+            InlineKeyboardButton("📺 Watch", url=watch),
+            InlineKeyboardButton("🚀 Download", url=download)
         ],[
-            InlineKeyboardButton('❌ ᴄʟᴏsᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton('🙅 Close', callback_data='close_data')
         ]]
         reply_markup=InlineKeyboardMarkup(btn)
         await query.edit_message_reply_markup(
