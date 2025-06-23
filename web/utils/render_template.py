@@ -203,14 +203,13 @@ watch_tmplt = """
                     'current-time',
                     'duration',
                     'mute',
-                    'volume',
                     'captions',
                     'settings',
                     'pip',
                     'airplay',
                     'fullscreen'
                 ],
-                settings: ['captions', 'quality', 'speed'],
+                settings: ['quality', 'speed'],
                 hideControls: false
             });
         });
